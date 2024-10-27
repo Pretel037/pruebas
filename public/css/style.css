@@ -1,0 +1,38 @@
+/* public/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex; /* Usamos flexbox para disposición */
+}
+
+.sidebar {
+    width: 250px; /* Ancho del menú lateral */
+    background-color: #f4f4f4; /* Color de fondo del menú */
+    padding: 15px; /* Espaciado interior */
+}
+
+.content {
+    flex-grow: 1; /* Esta sección ocupará el espacio restante */
+    padding: 15px; /* Espaciado interior */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Quitar el estilo de lista */
+    padding: 0; /* Sin padding */
+}
+
+.sidebar li {
+    margin: 10px 0; /* Margen entre elementos del menú */
+}
+
+.sidebar a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #333; /* Color del texto del enlace */
+}
+
+.sidebar a:hover {
+    color: #007bff; /* Color de texto al pasar el ratón */
+}
